@@ -40,7 +40,9 @@ def user_validator():
     The function uses the get_api_response function to first check if the user exists and if it does, then it returns the first user name and the last user name.
     '''
     input_phones = input("Phone numbers: ")
+    print(input_phones)
     phones = input_phones.split()
+    print(phones)
     try:
         for phone in phones:
             api_res = get_names(phone)

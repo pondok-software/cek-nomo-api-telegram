@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 telethon = "*"
 python-dotenv = "*"
+flask = "*"
+flask-restful = "*"
+asyncio = "*"
 
 [dev-packages]
 
